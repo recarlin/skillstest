@@ -11,12 +11,13 @@ body {
 	display: inline-block;
 }
 input[type=text] {
+	height: 60px;
 	width: 40%;
     text-decoration: none;
-    padding: 20px;
+    padding: 5px;
     margin: 5px;
     cursor: pointer;
-    font-size: 1.35em;
+    font-size: 1.5em;
 }
 .selectContainer {
 	width: 30%;
@@ -32,11 +33,12 @@ input[type=text] {
 	appearance: none;
 }
 input[type=button] {
+	height: 70px;
 	width: 20%;
     background-color: #b5dcff;
     border: none;
     text-decoration: none;
-    padding: 20px;
+    padding: 5px;
     margin: 5px;
     cursor: pointer;
     font-size: 1.35em;
