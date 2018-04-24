@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	    <title>Skills Test</title>
+	    <meta name="viewport" content="initial-scale=1.0, user-scalable=no" charset="utf-8">
+	    <link rel="stylesheet" href="CSS/main.css">
+	</head>
+	<body>
+		<div id="searchBox">
+			<input type="text" class="inputBlock" id="searchBar" placeholder="Type search term...">
+			<div class="inputBlock selectContainer">
+				<select id="searchBy">
+	                <option value="partName">Part Name</option>
+	                <option value="partNumber">Part Number</option>
+	                <option value="partDescription">Part Description</option>
+	            </select>
+			</div>
+			<input type="button" class="inputBlock" id="runSearch" value="Search">
+		</div>
+		<div id="resultsBox"></div>
+	</body>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<script src="JS/main.js"></script>
+</html>

@@ -1,0 +1,77 @@
+body {
+	line-height: 1.5;
+	font-size: 1.2em;
+}
+#searchBox {
+	width: 50vw;
+	padding: 5px;
+	border: 2px dotted #a2a2a2;
+}
+.inputBlock {
+	display: inline-block;
+}
+input[type=text] {
+	width: 40%;
+    text-decoration: none;
+    padding: 20px;
+    margin: 5px;
+    cursor: pointer;
+    font-size: 1.35em;
+}
+.selectContainer {
+	width: 30%;
+}
+#searchBy {
+	height: 70px;
+	width: 100%;
+    cursor: pointer;
+    padding: 5px;
+    font-size: 1.35em;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+}
+input[type=button] {
+	width: 20%;
+    background-color: #b5dcff;
+    border: none;
+    text-decoration: none;
+    padding: 20px;
+    margin: 5px;
+    cursor: pointer;
+    font-size: 1.35em;
+}
+#resultsBox {
+	width: 50vw;
+	height: 80vh;
+	padding: 5px;
+	margin-top: 5px;
+	border: 2px dotted #a2a2a2;
+	overflow: auto;
+}
+.parentBlock {
+	background-color: #008bd5;
+	border: 2px solid #a2a2a2;
+	padding: 5px;
+}
+.childBlock {
+	background-color: #b5dcff;
+	margin-left: 50px;
+	margin-right: 10px;
+	padding: 5px;
+}
+.title {
+	font-size: 1.35em;
+	font-weight: bold;
+}
+
+@media only screen and (max-width: 800px) {
+	#resultsBox, #searchBox {
+		width: calc(100vw - 30px);
+	}
+	.selectContainer {
+		width: 40%;
+	}
+	input[type=button] {
+	width: 40%;
+}
